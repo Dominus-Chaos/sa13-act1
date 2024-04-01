@@ -1,0 +1,41 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: snow;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+  }
+  
+  .menu-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: snow;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
+    padding: 20px;
+  }
+  
+  .category {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: orangered; /* orange color */
+  }
+  
+  .menu-item {
+    margin-bottom: 5px;
+  }
+  
+  .menu-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .price {
+    float: right;
+    color: black;
+  }
+  
